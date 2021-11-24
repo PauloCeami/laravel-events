@@ -10,3 +10,6 @@
 ## Site de Eventos em Laravel
 Este site foi criado com laravel 8 + xamp, usando as boas práticas de programação que o Framework oferece.
 
+
+**SITE LARAVEL EVENT**
+![shop](laravel-events.png)
