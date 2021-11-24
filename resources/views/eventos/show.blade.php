@@ -17,12 +17,14 @@
             <p><ion-icon name="contacts"></ion-icon> 250 Participantes</p>
             <p><ion-icon name="star-outline"></ion-icon> Dono do Evento</p>
 
+            @if($evento->items)
             <h5>O Evento conta com :</h5>
             <ul class="list-group">
                 @foreach($evento->items as $item)
                 <li class="list-group-item list-group-item-action"> <ion-icon name="checkmark"></ion-icon> {{$item}}</li>
                 @endforeach
             </ul>
+            @endif
 
             <p><p><a href="#" class="btn btn-dark mt-5">Confirmar Presença</a></p></p>
         </div>
